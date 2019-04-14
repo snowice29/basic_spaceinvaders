@@ -15,7 +15,7 @@ gameObjects.push({ type: "benefit", x: 20, y: 25, r: 20, color: "yellow", speed:
 var player = gameObjects[0];
 
 var backgroundImg = new Image();
-backgroundImg.src = "game-bg.png";
+backgroundImg.src = "/it202-project3/game-bg.png";
 
 ctx.font = "25px QuickSand";
 ctx.fillStyle = "red";
